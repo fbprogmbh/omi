@@ -44,7 +44,7 @@ else
     echo "*** Update build process to include omi.version from superproject! ***" >& 2
 
     major=1
-    minor=7
+    minor=9
     revision=0
     patch_level=0
 fi
