@@ -90,6 +90,7 @@ DIRECTORIES += micxx
 DIRECTORIES += omiclient
 DIRECTORIES += configeditor
 DIRECTORIES += cli
+DIRECTORIES += clifile
 DIRECTORIES += omireg
 DIRECTORIES += check
 DIRECTORIES += samples

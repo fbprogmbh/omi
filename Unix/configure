@@ -2296,6 +2296,7 @@ else
 fi
 
 cp -f $outputdirrelative/bin/omicli \$destdir/$bindir/omicli
+cp -f $outputdirrelative/bin/omiclifile \$destdir/$bindir/omiclifile
 cp -f $outputdirrelative/bin/omigen \$destdir/$bindir/omigen
 cp -f $outputdirrelative/bin/omireg \$destdir/$bindir/omireg
 cp -f $outputdirrelative/bin/omicheck \$destdir/$bindir/omicheck

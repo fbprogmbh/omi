@@ -2123,8 +2123,9 @@ static Protocol_CallbackResult _ReadHeader(
             {
                 if (handler->recv_buffer.batchInfo[index].pageSize > MAX_ENVELOPE_SIZE)
                 {
-                    trace_Socket_ReadingHeader_ErrorBatchSize(s_type, handler);
-                    return PRT_RETURN_FALSE;
+		/* Handling large MOFs need large buffer */
+                    //trace_Socket_ReadingHeader_ErrorBatchSize(s_type, handler);
+		    //return PRT_RETURN_FALSE;
                 }
             }
 
