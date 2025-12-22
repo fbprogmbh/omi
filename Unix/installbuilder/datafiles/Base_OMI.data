@@ -1,5 +1,5 @@
 %Variables
-SHORT_NAME: 'omi-fbpro'
+SHORT_NAME: 'omi'
 LONG_NAME: 'Open Management Infrastructure'
 SHELL_HEADER: '#!/bin/sh'
 SHORT_NAME_PREFIX: 'MSFT'
