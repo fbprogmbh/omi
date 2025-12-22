@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int climain();
+int climain(int argc, const char *argv[]);
 
 int main(int argc, const char *argv[]) {
     // Check if filename is provided as an argument
